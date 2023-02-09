@@ -32,8 +32,6 @@ public class MemberController {
 
         memberService.join(member);
 
-        System.out.println("member = " + member.getName());
-
         return "redirect:/";
     }
 
